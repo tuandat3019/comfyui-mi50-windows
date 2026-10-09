@@ -1,0 +1,74 @@
+{
+  "date": "2026-10-09",
+  "hardware": "AMD Instinct MI50 16GB (driver name AMD Radeon Pro VII)",
+  "os": "Windows x64",
+  "runtime": {
+    "python": "3.12.10",
+    "torch": "2.7.1+cu118",
+    "hip_runtime_version": 50731541,
+    "zluda_release": "rel.854c58e1565c3597e17046d7cc2b1eab96fcdf55"
+  },
+  "z_image": {
+    "checkpoint": "Z-Image NSFW v2 Q8_0",
+    "width": 1024,
+    "height": 1024,
+    "seed": 42,
+    "steps": 8,
+    "cfg": 1,
+    "sampler": "euler",
+    "scheduler": "simple",
+    "comfy_execution_s": 92.61,
+    "sampling_s": 57.2,
+    "worker_s": 111.141,
+    "historical_controller_wall_s": 121.952,
+    "cache": "existing kernel cache, new worker"
+  },
+  "trellis": {
+    "checkpoint": "TRELLIS.2-4B",
+    "pipeline_resolution": 1024,
+    "texture_size": 1024,
+    "seed": 42,
+    "steps": [
+      12,
+      12,
+      12
+    ],
+    "target_faces": 100000,
+    "actual_faces": 96781,
+    "uv_vertices": 63421,
+    "materials": 1,
+    "textures": 2,
+    "comfy_execution_s": 515.38,
+    "historical_controller_generation_s": 516.198,
+    "historical_controller_wall_s": 569.375,
+    "cache": "decoder kernels still compiled",
+    "reused_latents": false,
+    "visual_checked": true,
+    "watertight": false
+  },
+  "standalone_clean_install_gpu_retested": false,
+  "full_warm_trellis_measured": false,
+  "same_settings_rx6800_ab": false,
+  "artifacts": [
+    {
+      "file": "examples/robot-4views.png",
+      "bytes": 233212,
+      "sha256": "e3a9601126c0f09203babfcf0315523e71086ff3c0f49a2b74b707e40f1d78df"
+    },
+    {
+      "file": "examples/robot-reference.png",
+      "bytes": 390431,
+      "sha256": "90e056b2cc1b77fc4de39b67fe8a6133bc70da74db00a3734b7e785d9be78d09"
+    },
+    {
+      "file": "examples/robot.glb",
+      "bytes": 5632676,
+      "sha256": "b980405f50952ca977c328e610f6e5aabc1e6bb4db3afd7fd44695d3c0fe5886"
+    },
+    {
+      "file": "examples/z-image-robot.png",
+      "bytes": 916471,
+      "sha256": "70634aba46879232440d1f3a147bfa6877a2e6022468308ae91c0a130bb2313d"
+    }
+  ]
+}

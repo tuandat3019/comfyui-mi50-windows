@@ -1,0 +1,34 @@
+{
+  "ComfyUI": {
+    "url": "https://github.com/Comfy-Org/ComfyUI.git",
+    "commit": "d91ed5f5b7fa60fa18464c2ad7c80254da2f0f29"
+  },
+  "ComfyUI-GGUF": {
+    "url": "https://github.com/city96/ComfyUI-GGUF.git",
+    "commit": "6ea2651e7df66d7585f6ffee804b20e92fb38b8a"
+  },
+  "ComfyUI-Trellis2-AMD": {
+    "url": "https://github.com/dmonkman/ComfyUI-Trellis2-AMD.git",
+    "commit": "3aa728ad71b6f892a4c3074e5a38c17dd9f0eec5"
+  },
+  "CuMesh": {
+    "url": "https://github.com/visualbruno/CuMesh.git",
+    "commit": "d10e54c30ddd03d11472c1431693f985501c7966"
+  },
+  "FlexGEMM": {
+    "url": "https://github.com/JeffreyXiang/FlexGEMM.git",
+    "commit": "6dd94a859c26ee8246888502eada3dd8ad85532e"
+  },
+  "nvdiffrast": {
+    "url": "https://github.com/NVlabs/nvdiffrast.git",
+    "commit": "253ac4fcea7de5f396371124af597e6cc957bfae"
+  },
+  "TRELLIS2-o-voxel": {
+    "url": "https://github.com/microsoft/TRELLIS.2.git",
+    "commit": "75fbf0183001ed9876c8dbb35de6b68552ee08bd"
+  },
+  "eigen-3.4.0": {
+    "url": "https://gitlab.com/libeigen/eigen.git",
+    "commit": "3147391d946bb4b6c68edd901f2add6ac1f31f8c"
+  }
+}

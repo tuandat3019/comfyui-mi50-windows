@@ -1,0 +1,31 @@
+{
+  "fresh_upstream_source_checkout": true,
+  "native_source_inputs_match_working_runtime": [
+    "sources/CuMesh/src/clean_up.cu",
+    "sources/CuMesh/src/connectivity.cu",
+    "sources/CuMesh/src/shared.h",
+    "sources/CuMesh/src/simplify.cu",
+    "sources/CuMesh/src/remesh/svox2vert.cu",
+    "sources/nvdiffrast/csrc/common/cudaraster/impl/Util.inl",
+    "sources/eigen-3.4.0/Eigen/src/Core/Ref.h",
+    "sources/TRELLIS2-o-voxel/o-voxel/src/convert/flexible_dual_grid.cpp",
+    "sources/TRELLIS2-o-voxel/o-voxel/src/io/filter_neighbor.cpp",
+    "sources/TRELLIS2-o-voxel/o-voxel/src/io/filter_parent.cpp",
+    "sources/TRELLIS2-o-voxel/o-voxel/src/io/svo.cpp",
+    "built-extensions/o_voxel/convert/flexible_dual_grid.py"
+  ],
+  "build_configuration_preparation_checked": true,
+  "native_compilation_performed": false,
+  "gpu_work": false,
+  "source_only_setup": true,
+  "unit_tests": 16,
+  "cpu_tests_torch_versions": [
+    "2.14.0+cpu",
+    "2.7.1+cu118 (GPU hidden; CPU tensors only)"
+  ],
+  "download_headers_checked": [
+    "amd-pro26q1.exe",
+    "hip57-sdk.exe",
+    "o_voxel-amd-helper.whl"
+  ]
+}

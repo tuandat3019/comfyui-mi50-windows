@@ -1,0 +1,82 @@
+[
+  {
+    "name": "hipblas.dll",
+    "bytes": 369592,
+    "sha256": "ec387d1b52425ddfb94ff49186a0f465018e958cc09f17549c7c6d312a19aaa8"
+  },
+  {
+    "name": "hipfft.dll",
+    "bytes": 67000,
+    "sha256": "a7f110a62fb58ecb28d308509db2932185464b7449c89eb2eb766ac887d5a9a1"
+  },
+  {
+    "name": "hiprand.dll",
+    "bytes": 26552,
+    "sha256": "d3ddce34cb2de4771fd2f39531bcba9000b4bfb2b2370de0985bb1e9fbb1446b"
+  },
+  {
+    "name": "hipsolver.dll",
+    "bytes": 241080,
+    "sha256": "d39124689ca92ad3a25feb2f43e06d4540ff403041126bb3156fe986b9c658e4"
+  },
+  {
+    "name": "libhipsparse.dll",
+    "bytes": 198072,
+    "sha256": "11b292f331d6b5d602c296750fc5c3944c49af16197a752eca48353ec7d13cde"
+  },
+  {
+    "name": "rocalution.dll",
+    "bytes": 14303672,
+    "sha256": "6309bba0e02d5247178eddb752031898ac331cbee3b2c1c1269da46a9a7f5430"
+  },
+  {
+    "name": "rocfft.dll",
+    "bytes": 12907960,
+    "sha256": "bed168a93371693af0b41a340cf77261d57294c2038a5a45fb328191a096df15"
+  },
+  {
+    "name": "rocrand.dll",
+    "bytes": 36141496,
+    "sha256": "7f3d014c11c18716945ba36fba7b5fa306fd050f8cb64a98a752415b3242ea01"
+  },
+  {
+    "name": "rocsolver.dll",
+    "bytes": 582770616,
+    "sha256": "7bb155898b10725a25616b067bdb5cb0beabc3aacf30cf607a1bb9c4b13e4024"
+  },
+  {
+    "name": "rocsparse.dll",
+    "bytes": 1105672120,
+    "sha256": "75e80b90f00e9309ac323d0950aec46f56a15ea4f50e67739412706681e00b1b"
+  },
+  {
+    "name": "amd_comgr0507.dll",
+    "bytes": 105413048,
+    "sha256": "24ffe4078eaba02dda85d7853d3c1e440876a66e87ed0925ef7db2482a2c5344"
+  },
+  {
+    "name": "hiprtc-builtins0507.dll",
+    "bytes": 935352,
+    "sha256": "503d4c86300fb3335fc31effde28a7579dd129145757191d64a61bf3c928a1f0"
+  },
+  {
+    "name": "hiprtc0507.dll",
+    "bytes": 1846200,
+    "sha256": "e203b9a7d06c0e215b5070d2f5806337da943c8f316d88c0314ea7b0bd6d276d"
+  },
+  {
+    "name": "amdhip64.dll",
+    "bytes": 19435536,
+    "sha256": "01c7d29e1976e1447bcb0555275ca491c659e61b25edff7c9115f4d23684158b"
+  },
+  {
+    "name": "amd_comgr.dll",
+    "bytes": 105401360,
+    "sha256": "e3716899a5e8d3815f9581ae0859c53bbcdb8ec78b967016a8e80aa7c034faf7"
+  },
+  {
+    "name": "rocblas.dll",
+    "bytes": 363356160,
+    "sha256": "955bd7efbf180ca8666383cbec784fa57d8c554306c696f5181f846b260643d7"
+  }
+]

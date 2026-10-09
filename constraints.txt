@@ -1,0 +1,6 @@
+torch==2.7.1+cu118
+torchvision==0.22.1+cu118
+torchaudio==2.7.1+cu118
+transformers==4.56.0
+numpy==2.5.2
+gguf==0.19.0

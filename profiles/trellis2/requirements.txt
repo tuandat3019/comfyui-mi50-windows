@@ -1,0 +1,19 @@
+imageio
+imageio-ffmpeg
+easydict
+opencv-python-headless==5.0.0.93
+ninja==1.13.2
+trimesh==5.1.1
+timm==1.0.30
+plyfile
+utils3d @ git+https://github.com/EasternJournalist/utils3d.git@9a4eb15e4021b67b12c460c7057d642626897ec8
+meshlib==3.1.4.297
+pymeshlab==2025.7.post1
+rembg==2.0.85
+onnxruntime
+triton-windows==3.8.0.post29
+zstandard
+einops
+kornia==0.8.3
+huggingface-hub
+setuptools<82

@@ -1,0 +1,72 @@
+{
+  "1": {
+    "class_type": "Trellis2LoadImageWithTransparency",
+    "inputs": {
+      "image": "robot-reference.png"
+    }
+  },
+  "3": {
+    "class_type": "Trellis2LoadModel",
+    "inputs": {
+      "modelname": "microsoft/TRELLIS.2-4B",
+      "backend": "sdpa",
+      "device": "cuda",
+      "low_vram": true,
+      "keep_models_loaded": false,
+      "conv_backend": "flex_gemm",
+      "sparse_backend": "sdpa",
+      "use_reconviagen": false
+    }
+  },
+  "4": {
+    "class_type": "Trellis2MeshWithVoxelGenerator",
+    "inputs": {
+      "pipeline": [
+        "3",
+        0
+      ],
+      "image": [
+        "1",
+        0
+      ],
+      "seed": 42,
+      "pipeline_type": "1024",
+      "sparse_structure_steps": 12,
+      "shape_steps": 12,
+      "texture_steps": 12,
+      "max_num_tokens": 24576,
+      "max_views": 1,
+      "sparse_structure_resolution": 32,
+      "generate_texture_slat": true,
+      "use_tiled_decoder": true,
+      "sampler": "euler",
+      "fill_holes": true,
+      "hole_iterations": 1,
+      "hole_fill_algorithm": "flood_fill",
+      "keep_only_shell": true
+    }
+  },
+  "6": {
+    "class_type": "Trellis2ExportMesh",
+    "inputs": {
+      "trimesh": [
+        "5",
+        0
+      ],
+      "filename_prefix": "asset",
+      "file_format": "glb"
+    }
+  },
+  "5": {
+    "class_type": "Trellis2OvoxelExportToGLB",
+    "inputs": {
+      "mesh": [
+        "4",
+        0
+      ],
+      "resolution": 1024,
+      "texture_size": 1024,
+      "target_face_num": 100000
+    }
+  }
+}

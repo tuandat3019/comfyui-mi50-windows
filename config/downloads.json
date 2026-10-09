@@ -1,0 +1,100 @@
+[
+  {
+    "name": "zluda-rocm5.zip",
+    "url": "https://github.com/lshqqytiger/ZLUDA/releases/download/rel.854c58e1565c3597e17046d7cc2b1eab96fcdf55/ZLUDA-windows-rocm5-amd64.zip",
+    "bytes": 6063071,
+    "sha256": "aa236590637e4751f97bcfc1fe7c67b70d259cdb958fdfd88603e48c2ccd566f"
+  },
+  {
+    "name": "rocblas-hip57.7z",
+    "url": "https://github.com/likelovewant/ROCmLibs-for-gfx1103-AMD780M-APU/releases/download/v0.5.7/rocBLAS-HIP5.7.0-win.7z",
+    "bytes": 17891645,
+    "sha256": "86d754266005f0f8270db4b8c127031a3e6af9a1d2fe15c263e3f0bef51c2f43"
+  },
+  {
+    "name": "rocblas-gfx906.7z",
+    "url": "https://github.com/likelovewant/ROCmLibs-for-gfx1103-AMD780M-APU/releases/download/v0.5.7/rocblas.for.gfx906.7z",
+    "bytes": 6794998,
+    "sha256": "e9db0c90ccf5c8acce9aea6d904ea4f777e8422df6c127a0655247465f05d995"
+  },
+  {
+    "url": "https://download.amd.com/developer/eula/rocm-hub/AMD-Software-PRO-Edition-23.Q4-Win10-Win11-For-HIP.exe",
+    "bytes": 1259878656,
+    "sha256": "ec167eb267d3f331edd65ecfaedd292f407e7ea00163e7758a9c3c3711c1da77",
+    "name": "hip57-sdk.exe",
+    "headers": {
+      "Referer": "https://www.amd.com/",
+      "User-Agent": "Mozilla/5.0"
+    }
+  },
+  {
+    "name": "amd-pro26q1.exe",
+    "url": "https://drivers.amd.com/drivers/prographics/amd-software-pro-edition-26.q1-win11-vega-polaris.exe",
+    "bytes": 676208616,
+    "sha256": "282c2cfa41e6257f6489c1891844217f86ebb614cf7ce9e133203ee6f994d11d",
+    "headers": {
+      "Referer": "https://www.amd.com/",
+      "User-Agent": "Mozilla/5.0"
+    }
+  },
+  {
+    "url": "https://developer.download.nvidia.com/compute/cuda/redist/cuda_nvcc/windows-x86_64/cuda_nvcc-windows-x86_64-11.8.89-archive.zip",
+    "bytes": 57346486,
+    "sha256": "4cdd7555f31186e5af0b14ab761838bbc8b5e6441589f5bb326930c7a502dcd3",
+    "name": "cuda_nvcc-windows-x86_64-11.8.89-archive.zip",
+    "group": "cuda11"
+  },
+  {
+    "url": "https://developer.download.nvidia.com/compute/cuda/redist/cuda_cudart/windows-x86_64/cuda_cudart-windows-x86_64-11.8.89-archive.zip",
+    "bytes": 2987306,
+    "sha256": "988cc9e7d3785d4b1975521f312c57c6814cbf15e73a2b7941d961835f2a945e",
+    "name": "cuda_cudart-windows-x86_64-11.8.89-archive.zip",
+    "group": "cuda11"
+  },
+  {
+    "url": "https://developer.download.nvidia.com/compute/cuda/redist/cuda_cccl/windows-x86_64/cuda_cccl-windows-x86_64-11.8.89-archive.zip",
+    "bytes": 2570742,
+    "sha256": "548fe5e0cf6a64568a61713cdb475306ce7445d98dfbbe7f910fd78a7f6b616c",
+    "name": "cuda_cccl-windows-x86_64-11.8.89-archive.zip",
+    "group": "cuda11"
+  },
+  {
+    "url": "https://developer.download.nvidia.com/compute/cuda/redist/libcublas/windows-x86_64/libcublas-windows-x86_64-11.11.3.6-archive.zip",
+    "bytes": 420850025,
+    "sha256": "67b0934a6359e4ee26fff823c356021589d392c4fd49ca12624f570edc08e2b9",
+    "headers_only": true,
+    "name": "libcublas-windows-x86_64-11.11.3.6-archive.zip",
+    "group": "cuda11"
+  },
+  {
+    "url": "https://developer.download.nvidia.com/compute/cuda/redist/libcusparse/windows-x86_64/libcusparse-windows-x86_64-11.7.5.86-archive.zip",
+    "bytes": 201218990,
+    "sha256": "b51a46f4f6bb9476ffe433a1dedad2c94a546c8a92e70dfed63207b64ff57e50",
+    "headers_only": true,
+    "name": "libcusparse-windows-x86_64-11.7.5.86-archive.zip",
+    "group": "cuda11"
+  },
+  {
+    "url": "https://developer.download.nvidia.com/compute/cuda/redist/libcusolver/windows-x86_64/libcusolver-windows-x86_64-11.4.1.48-archive.zip",
+    "bytes": 120198030,
+    "sha256": "965298e47640b643827cd6fe4ca5cab3c5a97b4bedc5357e9b6551298d1f9c2c",
+    "headers_only": true,
+    "name": "libcusolver-windows-x86_64-11.4.1.48-archive.zip",
+    "group": "cuda11"
+  },
+  {
+    "url": "https://developer.download.nvidia.com/compute/cuda/redist/cuda_cuobjdump/windows-x86_64/cuda_cuobjdump-windows-x86_64-11.8.86-archive.zip",
+    "bytes": 3777109,
+    "sha256": "9961e1770fdde91844938a7046d03d7dfa3c3ff7271f77e9e859ca84d631ebf4",
+    "headers_only": false,
+    "name": "cuda_cuobjdump-windows-x86_64-11.8.86-archive.zip",
+    "group": "cuda11"
+  },
+  {
+    "name": "o_voxel-amd-helper.whl",
+    "url": "https://raw.githubusercontent.com/dmonkman/ComfyUI-Trellis2-AMD/3aa728ad71b6f892a4c3074e5a38c17dd9f0eec5/wheels/Windows/Python3.12/o_voxel-0.0.1%2Brocm.10.0-cp312-cp312-win_amd64.whl",
+    "bytes": 451214,
+    "sha256": "9671d1a3f9ad3a9956a56f2445ab88e418ca8999f6973bad5492a53e60703f50",
+    "group": "trellis"
+  }
+]
