@@ -1,7 +1,7 @@
 # RESTORE-IGNORED — ComfyUI MI50 Windows
 
 Tài liệu khôi phục các file **không nằm trong Git**. Cập nhật 2026-10-17, trước khi chuyển
-`C:\Projects\comfyui-mi50-windows` sang `F:\Projects\comfyui-mi50-windows`.
+`F:\Projects\comfyui-mi50-windows` sang `F:\Projects\comfyui-mi50-windows`.
 
 Repo hiện **không có file ignored nào trên đĩa** (chỉ source, docs, examples). `.gitignore`
 đã chừa chỗ cho runtime/venv/model cho lần cài sau.
